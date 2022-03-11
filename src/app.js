@@ -10,6 +10,6 @@ export default class App extends LightningElement {
    connectedCallback() {
        setTimeout(() => {
            this.ready = true;
-       }, 2000);
+       }, 3000);
    }
 }
